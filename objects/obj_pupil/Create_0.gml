@@ -1,0 +1,17 @@
+sprite_index = spr_pupil;
+firetime = 0;
+global.weapon = 0;
+time = 1000;
+pupillength = 3; //could be 3, 4, or 7
+length = 0;
+beam = instance_create_layer(x, y, "Bullets", obj_laserbeam);
+weaponshift = 0;
+maxammo = 0;
+ammo = 0;
+recharging = 0;
+rechargetime = 0;
+maxrechargetime = 0;
+colorswaptime = 0;
+rechargepoint = 0;
+finaleyecolor = $000000;
+follow = obj_Character;

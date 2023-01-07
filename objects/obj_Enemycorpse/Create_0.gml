@@ -1,0 +1,10 @@
+hsp = 0;
+vsp = 0;
+grv = 0.1;
+image_index = 0;
+image_speed = 1;
+remadeoriginal = instance_create_layer(startx, starty, "Enemy", obj_Enemyremade);
+remadeoriginal.image_alpha = 0;
+remadeoriginal.active = 0;
+remadeoriginal.poisontime = 0;
+remadeoriginal.freezetime = 0;

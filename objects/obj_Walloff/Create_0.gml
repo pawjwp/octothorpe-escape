@@ -1,0 +1,1 @@
+solidworld = 0;
